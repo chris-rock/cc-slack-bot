@@ -8,6 +8,10 @@ This projects implements a Slack Bot for Chef Compliance. It polls the [Complian
 COMPLIANCE_SERVER=https://compliance.test SLACK_CHANNEL=chris-rock-test COMPLIANCE_ORGS=admin COMPLIANCE_TOKEN='eyJ...ozg' node cc-slack-bot.js
 ```
 
+## Messages
+
+Once everything is setup, you'll recieve a message for every scan with the results:
+
 ![Slack Message](./slack_cc_bot.png)
 
 ## References

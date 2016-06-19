@@ -115,7 +115,7 @@ function genMessage(scan) {
       scan.complianceSummary.success + ' successful, ' +
       scan.complianceSummary.critical + ' critical, ' +
       scan.complianceSummary.major + ' major, ' +
-      scan.complianceSummary.skipped + ' skipped for ' + scan.nodeCount + ' nodes';
+      scan.complianceSummary.skipped + ' skipped tests for ' + scan.nodeCount + ' nodes';
 
   if (scan.failedCount > 0) {
     msg += ' ' + scan.failedCount + 'Unreachable';
