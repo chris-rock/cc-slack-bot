@@ -1,0 +1,28 @@
+{
+  "name": "cc-slack-bot",
+  "version": "0.1.0",
+  "description": "Slack bot for Chef Compliance",
+  "main": "index.js",
+  "bin": "cc-slack-bot.js"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/chris-rock/cc-slack-bot"
+  },
+  "author": "Christoph Hartmann",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "cron": "^1.1.0",
+    "lodash": "~2.4.1",
+    "moment": "^2.13.0",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.1",
+    "jshint": "^2.9.2"
+  }
+}
