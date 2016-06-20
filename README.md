@@ -1,6 +1,6 @@
 # Slack Bot for Chef Compliance
 
-This projects implements a Slack Bot for Chef Compliance. It polls the [Compliance API](https://docs.chef.io/release/compliance/api_compliance.html) to retrieve scan updates. Once the bot found a change, it will push an update to a Slack channel.
+This project implements a Slack Bot for Chef Compliance. It polls the [Compliance API](https://docs.chef.io/release/compliance/api_compliance.html) to retrieve scan updates. Once the bot found a change, it will push an update to a Slack channel.
 
 ## Getting started
 
