@@ -5,12 +5,20 @@ This project implements a Slack Bot for Chef Compliance. It polls the [Complianc
 ## Getting started
 
 ```
-COMPLIANCE_SERVER=https://compliance.test SLACK_CHANNEL=chris-rock-test COMPLIANCE_ORGS=admin COMPLIANCE_TOKEN='eyJ...ozg' node cc-slack-bot.js
+COMPLIANCE_SERVER=https://compliance.test COMPLIANCE_ORGS=admin COMPLIANCE_TOKEN='eyJ...ozg' SLACK_CHANNEL=chris-rock-test SLACK_TOKEN=xo..GL node cc-slack-bot.js
 ```
+
+The following environment variables need to be set:
+
+- `COMPLIANCE_SERVER` - url of Chef Compliance server
+- `COMPLIANCE_ORGS` - organizations in Chef Compliance that we observe
+- `COMPLIANCE_TOKEN` - authentication token for Chef Compliance
+- `SLACK_CHANNEL` - Slack channel where we post messages to
+- `SLACK_TOKEN` - token to authenticate with Slack
 
 ## Messages
 
-Once everything is setup, you'll recieve a message for every scan with the results:
+Once everything is setup, you'll receive a message for every scan with the results:
 
 ![Slack Message](./slack_cc_bot.png)
 
